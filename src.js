@@ -39,3 +39,5 @@ d3.json("https://raw.githubusercontent.com/d3/d3-geo/master/test/data/world-110m
    .style("stroke", "white")
    .style("stroke-width", "0.5px");
 });
+
+//This code will create a basic world map with each country filled with the same color. To set the fill color based on the input values for each country, you can modify the style("fill", function(d) {}) function to return a different color for each country based on the input values.
